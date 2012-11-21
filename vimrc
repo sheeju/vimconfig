@@ -1039,3 +1039,14 @@ nmap <F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
 " vim600:fdm=marker fdl=0 fdc=3
 " }}}
 
+" html plugins {{{
+:source ~/.vim/plugin/matchit.vim
+" }}}
+"
+"highlight Pmenu ctermbg=4 guibg=LightGray   
+"highlight PmenuSel ctermbg=8 guibg=DarkBlue guifg=Red   
+" highlight PmenuSbar ctermbg=7 guibg=DarkGray
+highlight PmenuThumb guibg=Black   
+" use global scope search
+highlight TabLine term=underline cterm=bold ctermfg=9 ctermbg=4
+highlight TabLineSel term=bold cterm=bold ctermbg=Red ctermfg=yellow
