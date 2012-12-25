@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/yjiang/blog/_layouts'
 let g:netrw_dirhist_2='/home/yjiang/.vim/.git'
 let g:netrw_dirhist_3='/etc/apache2/sites-enabled'
 let g:netrw_dirhist_4='/home/yjiang/letou/magazine/qunar/application/views/xianzong'
+let g:netrw_dirhist_5='/usr/lib/apache2/modules'
+let g:netrw_dirhist_6='/etc/apache2/mods-available'
+let g:netrw_dirhist_7='/home/yjiang/.local/share/byobu/byobu'
