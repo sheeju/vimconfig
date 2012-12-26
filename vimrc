@@ -1030,6 +1030,8 @@ if exists("g:open_all_win")
 	let g:open_all_win = 0
 endif
 
+ca w!! w !sudo tee "%"
+
 hi CursorColumn ctermbg=4
 nmap <F11> :set cursorline!<BAR>set nocursorline?<CR>
 nmap <F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
