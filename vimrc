@@ -162,8 +162,8 @@ map <leader>p :Hammer<CR>
 
 " VimRepress {{{
 " see https://github.com/vim-scripts/VimRepress
-let VIMPRESS = [{'username':'pkufranky',
-                \'blog_url':'http://blog.pkufranky.com/'
+let VIMPRESS = [{'username':'yjiang',
+                \'blog_url':'http://yjiang.blog/'
                 \}]
 map <leader>P :BlogPreview<CR>
 " }}}
