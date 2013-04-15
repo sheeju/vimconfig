@@ -616,15 +616,15 @@ endfunction
 " OpenAllWin() }}}
 "
 "markdown文件自动增加样式
-"function InserMdHeader()      
-"	let l1 = getline(1)      
-"	if  match('\<l', l1) == 0         
-"		exec 1        
-"		normal O       
-"		call setline(1,'<link href="markdown.css"></link>')    
-"	endif  
-"endfunction    
-"au FileType markdown call InserMdHeader() 
+function InserMdHeader()      
+	let l1 = getline(1)      
+	if  match('\<l', l1) == 0         
+		exec 1        
+		normal O       
+		call setline(1,'<link href="markdown.css"></link>')    
+	endif  
+endfunction    
+au FileType markdown call InserMdHeader() 
 "
 " Function CallProg() {{{
 function! CallProg() abort

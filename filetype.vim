@@ -23,3 +23,5 @@ autocmd BufNewFile,BufRead *.git/**
       \   setf git |
       \ endif
 augroup END
+"	Nginx
+au BufRead,BufNewFile /usr/local/nginx/conf/* set ft=nginx

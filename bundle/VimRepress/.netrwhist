@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/yjiang/beartech/xuserclub/system/application/controllers/api'
-let g:netrw_dirhist_2='/home/yjiang/.vim'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/yjiang/beartech/xuserclub/system/application/views/libs'
+let g:netrw_dirhist_2='/home/yjiang/mycake/cake/.git'
+let g:netrw_dirhist_3='/home/yjiang/beartech/xuserclub/system/application/config'
+let g:netrw_dirhist_4='/home/yjiang/beartech/xuserclub/system/application/views/rewards'
+let g:netrw_dirhist_5='/home/yjiang/beartech/xuserclub/system/application/views'
+let g:netrw_dirhist_6='/etc/apache2/conf.d'
+let g:netrw_dirhist_7='/home/yjiang/beartech/xuserclub/system/application/libraries/weibo'
