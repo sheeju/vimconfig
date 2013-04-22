@@ -1056,6 +1056,8 @@ nmap <F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
 :source ~/.vim/plugin/matchit.vim
 " }}}
 "
+" 支持gbk文件直接打开
+set fencs=utf-8,gbk
 "highlight Pmenu ctermbg=4 guibg=LightGray   
 "highlight PmenuSel ctermbg=8 guibg=DarkBlue guifg=Red   
 " highlight PmenuSbar ctermbg=7 guibg=DarkGray
