@@ -616,7 +616,7 @@ endfunction
 " OpenAllWin() }}}
 "
 "markdown文件自动增加样式
-function InserMdHeader()      
+function! InserMdHeader()      
 	let l1 = getline(1)      
 	if  match('\<l', l1) == 0         
 		exec 1        
