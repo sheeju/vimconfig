@@ -954,6 +954,10 @@ augroup END
 	augroup END
 	" }}}
 
+	" Autocomands for *.tpl {{{
+	autocmd BufRead,BufNewFile  *.tpl	setlocal autoindent
+	" }}}
+
 	" Autocomands for *.txt {{{
 	augroup Txt
 	autocmd BufNewFile,BufRead  *.txt   setf txt
