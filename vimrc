@@ -152,6 +152,11 @@ au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 " }}}
+" smarty {{{
+au BufRead,BufNewFile *.tpl set filetype=smarty 
+au Filetype smarty exec('set dictionary=~/.vim/syntax/smarty.vim') 
+au Filetype smarty set complete+=k
+" }}}
 " hammer.vim {{{
 " see https://github.com/robgleeson/hammer.vim
 if has('unix')
