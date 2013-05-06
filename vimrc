@@ -1056,20 +1056,15 @@ nmap <F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
 :source ~/.vim/plugin/matchit.vim
 " }}}
 "
+"映射F6为打开taglist
+map <F6> :TlistToggle<CR>
 " 支持gbk文件直接打开
 set fencs=utf-8,gbk
+highlight Pmenu guibg=brown gui=bold
 "highlight Pmenu ctermbg=4 guibg=LightGray   
-"highlight PmenuSel ctermbg=8 guibg=DarkBlue guifg=Red   
+highlight PmenuSel ctermbg=8 guibg=yellow guifg=red
 " highlight PmenuSbar ctermbg=7 guibg=DarkGray
-highlight PmenuThumb guibg=Black   
+highlight PmenuThumb guibg=yellow guifg=red
 " use global scope search
 highlight TabLine term=underline cterm=bold ctermfg=9 ctermbg=4
 highlight TabLineSel term=bold cterm=bold ctermbg=Red ctermfg=yellow
-
-autocmd FileType python set omnifunc=pythoncomplete#Complete
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
-autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-autocmd FileType c set omnifunc=ccomplete#Complete

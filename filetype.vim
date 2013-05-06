@@ -9,6 +9,7 @@ augroup filetypedetect
 " ClearSilver
 au BufNewFile,BufReadPost *.hdf setf hdf
 au BufNewFile,BufReadPost *.cst setf xhtml 
+au BufNewFile,BufRead *.tpl		setf html
 
 " Git
 autocmd BufNewFile,BufRead *.git/COMMIT_EDITMSG    setf gitcommit
