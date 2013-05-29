@@ -1,8 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/yjiang/beartech/xuserclub/system/application/controllers'
-let g:netrw_dirhist_2='/home/yjiang/beartech/xuserclub/system/application/views/rewards'
-let g:netrw_dirhist_3='/home/yjiang/beartech/xuserclub/api/server'
-let g:netrw_dirhist_4='/home/yjiang/beartech/x-bonus/application/controllers'
-let g:netrw_dirhist_5='/home/yjiang/beartech/xuserclub/system/application/controllers'
-let g:netrw_dirhist_6='/etc/vim'
+let g:netrw_dirhist_cnt =0

@@ -1061,6 +1061,13 @@ nmap <F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
 " vim600:fdm=marker fdl=0 fdc=3
 " }}}
 
+" php注释 {{{
+source ~/.vim/php-doc.vim 
+inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
+nnoremap <C-P> :call PhpDocSingle()<CR> 
+vnoremap <C-P> :call PhpDocRange()<CR> 
+" }}}
+
 " html plugins {{{
 :source ~/.vim/plugin/matchit.vim
 " }}}
