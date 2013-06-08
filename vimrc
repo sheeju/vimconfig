@@ -626,7 +626,7 @@ function! InserMdHeader()
 	if  match('\<l', l1) == 0         
 		exec 1        
 		normal O       
-		call setline(1,'<link href="markdown.css"></link>')    
+		call setline(1,'<link rel="stylesheet" href="markdown.css">')    
 	endif  
 endfunction    
 au FileType markdown call InserMdHeader() 
