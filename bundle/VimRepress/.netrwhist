@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/yjiang/letou/graduate_design'
-let g:netrw_dirhist_2='/etc/varnish'
-let g:netrw_dirhist_3='/etc/mysql'
-let g:netrw_dirhist_4='/home/yjiang/beartech/xuserclub/system/application/views'
-let g:netrw_dirhist_5='/home/yjiang/beartech/xuserclub/system/application/libraries/excel/PHPExcel'
