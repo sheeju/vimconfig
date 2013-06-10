@@ -1,0 +1,10 @@
+" 
+" User's local vim configuration
+"  
+" Developed by Lubomir Host 'rajo' <rajo AT platon.sk>
+" Copyright (c) 2000-2005 Platon Group, http://platon.sk/
+" All rights reserved.
+"
+let g:author="Lubomir Host 'rajo'"
+let g:email="rajo AT platon.sk"
+
