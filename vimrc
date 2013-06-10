@@ -1012,6 +1012,9 @@ augroup END
 		autocmd BufWritePost,FileWritePost	*.gpg,*.asc undo
 	augroup END
 	" }}}
+	"
+	" TT to tt2 converter
+	autocmd BufRead,BufNewFile *.tt set filetype=tt2
 
 endif " if has("autocmd")
 " }}} Autocomands
