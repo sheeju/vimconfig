@@ -73,17 +73,18 @@ function! LoadTemplateFile()
 	if exists("g:author")
 		let Author = Escape(g:author)
 	else
-		let Author = Escape("UNKNOWN AUTHOR")
+		let Author = Escape("Sheeju Alex")
 	endif
 	if exists("g:email")
 		let Email  = Escape(g:email)
 	else
-		let Email  = Escape("UNKNOWN@undefined.net")
+		let Email  = Escape("sheeju@exceleron.com")
 	endif
 	if exists("g:company")
-		let Company  = Escape(g:company)
+		" let Company  = Escape(g:company)
+		let Company  = Escape("Exceleron Inc")
 	else
-		let Company  = Escape("UNKNOWN Company")
+		let Company  = Escape("Exceleron Inc")
 	endif
 
 	" build variable for @JAVA_PACKAGE@ substitution
