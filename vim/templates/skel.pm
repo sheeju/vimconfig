@@ -6,35 +6,15 @@
 #
 # Developed by @AUTHOR@ <@EMAIL@>
 # Copyright (c) @YEAR@ @COMPANY@
-# Licensed under terms of GNU General Public License.
 # All rights reserved.
 #
 # Changelog:
 # @DATE@ - created
 #
 
-# $Platon$
-
 package @FILE@;
 
-use strict;
-use Carp;
-use vars qw($VERSION @ISA @EXPORT $AUTOLOAD);
-
-@ISA		= qw(Exporter);
-@EXPORT		= qw( );
-$VERSION	= $VERSION = do { [ q$Revision: 0.1 $ =~ /([\d.a-z]+)\s*$/gi ]->[0]; };
-
-sub new
-{ #{{{
-    my $this  = shift;
-    my $class = ref($this) || $this;
-    my $self  = {};
-
-    bless $self, $class;
-
-    return $self;
-} # }}}
+use Moose;
 
 1;
 
