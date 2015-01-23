@@ -86,7 +86,8 @@ endif
 if has("viminfo")
 	if filewritable(expand("$HOME/.vim/viminfo")) == 1 || 
 				\ filewritable(expand("$HOME/.vim/")) == 2
-		set viminfo=!,%,'5000,\"10000,:10000,/10000,n~/.vim/viminfo
+		" set viminfo=!,%,'5000,\"10000,:10000,/10000,n~/.vim/viminfo
+		set viminfo=!,%,'5000,\"10000,:10000,/10000
 	else
 		set viminfo=
 	endif
