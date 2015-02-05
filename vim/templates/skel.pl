@@ -1,6 +1,3 @@
-
-# XXX XXX XXX  THIS IS A NEW FILE XXX XXX XXX
-
 #!/usr/bin/perl -w
 
 #
