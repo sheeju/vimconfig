@@ -82,9 +82,9 @@ function! LoadTemplateFile()
 	endif
 	if exists("g:company")
 		" let Company  = Escape(g:company)
-		let Company  = Escape("Exceleron Inc")
+		let Company  = Escape("Exceleron Software, LLC")
 	else
-		let Company  = Escape("Exceleron Inc")
+		let Company  = Escape("Exceleron Software, LLC")
 	endif
 
 	" build variable for @JAVA_PACKAGE@ substitution
