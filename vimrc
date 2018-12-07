@@ -165,6 +165,9 @@ if has('unix')
 end
 map <leader>p :Hammer<CR>
 " }}}
+" see https://github.com/wikimatze/hammer.vim/issues/30#issuecomment-2228160
+" Used to Silence the warning message
+" let g:HammerQuiet = 1
 
 " VimRepress {{{
 " see https://github.com/vim-scripts/VimRepress
@@ -1065,12 +1068,12 @@ nmap <F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
 " vim600:fdm=marker fdl=0 fdc=3
 " }}}
 
-" php注释 {{{
-source ~/.vim/php-doc.vim 
-inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
-nnoremap <C-P> :call PhpDocSingle()<CR> 
-vnoremap <C-P> :call PhpDocRange()<CR> 
-" }}}
+" Open NERDTree using CTRL-P command 
+map <C-P> :NERDTree<CR>
+imap <C-P> <Esc>:NERDTree<CR>
+
+" Close NERDTree using CTRL-P CTRL-C command 
+map <C-P><C-O> :NERDTreeClose<CR>
 
 " html plugins {{{
 :source ~/.vim/plugin/matchit.vim
